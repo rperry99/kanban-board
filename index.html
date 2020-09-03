@@ -18,7 +18,13 @@
           </span>
           <!-- Backlog Content -->
           <div id="backlog-content" class="custom-scroll">
-            <ul class="drag-item-list" id="backlog-list"></ul>
+            <ul
+              class="drag-item-list"
+              id="backlog-list"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+              ondragenter="dragEnter(0)"
+            ></ul>
           </div>
           <!-- Add Button Group-->
           <div class="add-btn-group">
@@ -42,7 +48,13 @@
           </span>
           <!-- progress Content -->
           <div id="progress-content" class="custom-scroll">
-            <ul class="drag-item-list" id="progress-list"></ul>
+            <ul
+              class="drag-item-list"
+              id="progress-list"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+              ondragenter="dragEnter(1)"
+            ></ul>
           </div>
           <!-- Add Button Group-->
           <div class="add-btn-group">
@@ -66,7 +78,13 @@
           </span>
           <!-- complete Content -->
           <div id="complete-content" class="custom-scroll">
-            <ul class="drag-item-list" id="complete-list"></ul>
+            <ul
+              class="drag-item-list"
+              id="complete-list"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+              ondragenter="dragEnter(2)"
+            ></ul>
           </div>
           <!-- Add Button Group-->
           <div class="add-btn-group">
@@ -90,7 +108,13 @@
           </span>
           <!-- on-hold Content -->
           <div id="on-hold-content" class="custom-scroll">
-            <ul class="drag-item-list" id="on-hold-list"></ul>
+            <ul
+              class="drag-item-list"
+              id="on-hold-list"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+              ondragenter="dragEnter(3)"
+            ></ul>
           </div>
           <!-- Add Button Group-->
           <div class="add-btn-group">

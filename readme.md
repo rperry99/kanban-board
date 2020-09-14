@@ -7,6 +7,8 @@ This is project 16 / 20.
 
 You can view a live version of the project [here](https://rperry99.github.io/kanban-board/)
 
+You can view the full list of project from this course [here](https://github.com/rperry99/ztm-20-javascript-projects).
+
 ## Thoughts
 
 This was a really interesting project for me. I use kanban boards all the time for both professional and personal tasks. I think they can be incredibly useful. I get a lot of Trello vibes from this project, but I think there are so many things missing right now.
